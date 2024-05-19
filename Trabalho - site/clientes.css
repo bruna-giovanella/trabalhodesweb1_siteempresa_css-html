@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+        /* geral */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        /* subtitulo */
+        font-family: Gloria Hallelujah;
+        font-size: 5rem;
+        justify-content: center;
+        text-align: center;
+        color: #422f0a; 
+        padding-top: 3rem;
+    }
+
+    html {
+        background-color: #E3D2B1;
+        font-family: montserrat;
+    }
+
+
+    /* menu */
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: #422f0a;
+    }
+
+    a:visited {
+        color: #422f0a;
+    }
+
+    a:hover {
+        background-color: #e9dfcb;
+        padding: 1rem;
+        border-radius: 5rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        gap: 1.5rem;
+        padding: 1rem;
+        background-color: #E3D2B1;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    /* caixa de rolagem - clientes */
+
+    @keyframes rolar {
+        0% { transform: translateX(-100%); } 
+        100% { transform: translateX(100%); } 
+    }
+
+    .clientes {
+        overflow: hidden;
+        width: 100vw;
+        height: auto;
+        display: inline-flex;
+        
+        white-space: nowrap;
+        background-color: #e9dfcb;
+    }
+
+    .cultura-img {
+        animation: rolar 15s linear infinite;
+    }
+
+    .disney-img {
+        animation: rolar 15s linear infinite;
+    }
+
+    .leitura-img {
+        animation: rolar 15s linear infinite;
+    }
+
+    .vila-img {
+        animation: rolar 15s linear infinite;
+    }
+
+    .curitiba-img {
+        animation: rolar 15s linear infinite;
+    }
+
+    img {
+        width: 15rem;
+        height: auto;
+        margin: 2rem;
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    }
+
+    main {
+        height: 100vh;
+        
+    }
+
+    footer {
+        padding: 1rem;
+        color: #af9b73;
+        margin-top: 3rem;
+
+    }

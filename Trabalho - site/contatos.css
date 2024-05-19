@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+    * {
+        /* geral */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        /* subtitulo */
+        font-family: Gloria Hallelujah;
+        font-size: 5rem;
+        justify-content: center;
+        text-align: left;
+        color: #E3D2B1; 
+        padding-top: 2.5rem;
+        padding-left: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    h4 {
+        font-family: montserrat;
+        color: #E3D2B1;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        top: -3rem;
+        margin-left: 4rem;
+    }
+
+
+    /* conteudo */
+    html {
+        font-family: montserrat;
+        font-size: 1rem;
+        background-color: #3059AA;
+    }
+
+
+    /* menu */
+    .menu a {
+        text-decoration: none;
+    }
+
+    .menu a:link {
+        color: #E3D2B1;
+    }
+
+    .menu a:visited {
+        color: #E3D2B1;
+    }
+
+    .menu a:hover {
+        background-color: #3f6abe;
+        padding: 1rem;
+        border-radius: 5rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        gap: 1.5rem;
+        padding: 1rem;
+        background-color: #3059AA;
+        width: 100%;
+    }
+
+
+    /* espaçamento main */
+    main {
+        height: 100vh;
+    }
+
+    img {
+        position: relative;
+        right: -10rem;
+
+        width: 26rem;
+        height: auto;
+        margin-left: 5rem;
+    }
+
+    .contatos {
+        padding-right: 5rem;
+    }
+
+    .container_main {
+        display: grid;
+        grid-template-areas: 
+        'contatos container_img';
+        align-items: center;
+    }
+
+    .container_img {
+        grid-area: container_img;
+    }
+
+
+    /* espaçamento contatos */
+
+    .contatos_instagram {
+        color: white;
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #E3D2B1;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-left: 3.5rem;
+    }
+
+    .contatos_linkedin {
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #E3D2B1;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-left: 3.5rem;
+    }
+
+    .contatos_github {
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #E3D2B1;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-left: 3.5rem;
+    }
+
+    .contatos_trabalhe_conosco {
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #E3D2B1;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-left: 3.5rem;
+    }
+
+    .contatos_email {
+        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #E3D2B1;
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-left: 3.5rem;
+    }
+
+    i {
+        font-size: 2rem;
+        color: #3059AA;
+        padding-left: 3rem;
+    }
+
+
+
+    footer {
+        margin-top: 2rem;
+        padding: 1rem;
+        color: #0b2e72;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+
+

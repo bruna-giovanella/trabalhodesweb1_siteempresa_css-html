@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (min-width: 770px) {
+    * {
+        /* geral */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        /* subtitulo */
+        font-family: Gloria Hallelujah;
+        font-size: 5rem;
+        justify-content: center;
+        text-align: center;
+        color: #422f0a; 
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    html {
+        background-color: #E3D2B1;
+        font-family: montserrat;
+        color: #422f0a;
+    }
+
+
+    /* menu */
+    .menu a {
+        text-decoration: none;
+    }
+
+    .menu a:link {
+        color: #422f0a;
+    }
+
+    .menu a:visited {
+        color: #422f0a;
+    }
+
+    .menu a:hover {
+        background-color: #e9dfcb;
+        padding: 1rem;
+        border-radius: 5rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+        gap: 1.5rem;
+        padding: 1rem;
+        background-color: #E3D2B1;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    /* colunas */
+    main {
+        display: grid;
+        grid-template-areas:
+        'container-publicação container-desenvolvimento container-personalização';
+        height: 100vh;
+    }
+
+    img {
+        width: 24rem;
+        height: auto;
+        border-radius: 2rem;
+        box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .imagem-container {
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h4-meio {
+        padding-bottom: 1.8rem;
+    }
+
+    h4 {
+        padding-bottom: 3rem;
+    }
+
+
+    /* visibilidade do texto */
+    .texto-oculto {
+        opacity: 0; 
+        transition: opacity 0.4s ease-in-out; 
+
+        position: absolute;
+        top: 10rem; 
+        left: 0;
+        margin: 3rem;
+    }
+    
+    .imagem-container:hover .texto-oculto {
+        opacity: 1;     
+    }
+    
+    .imagem-container:hover img {
+        opacity: -1; 
+    }
+
+    .imagem-container {
+        position: relative;
+        z-index: 1;
+    }
+
+    img {
+        transition: opacity 0.4s ease-in-out; 
+    }
+
+
+    footer {
+        
+        
+        padding: 1rem;
+        color: #a89776;
+
+    }   
+}
+
+
+@media (max-width: 770px) {
+
+}
+
+
+
